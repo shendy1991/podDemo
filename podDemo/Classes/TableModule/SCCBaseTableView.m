@@ -11,7 +11,7 @@
 #import "SCCUtils.h"
 #import "SCCBaseTableCell.h"
 #import <MJRefresh/MJRefresh.h>
-#import <Masonry.h>
+#import "Masonry.h"
 #import "SCCSectionDataSource.h"
 #import "SCCTableSectionModel.h"
 

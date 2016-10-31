@@ -1,9 +1,9 @@
 {
   "name": "podDemo",
   "version": "0.1.0",
-  "summary": "A short description of podDemo.",
+  "summary": "this is a short description of podDemo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/podDemo",
+  "homepage": "https://github.com/shendy1991/podDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "shendeyuan": "shendeyuan@souche.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/podDemo.git",
+    "git": "https://github.com/shendy1991/podDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'podDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of podDemo.'
+  s.summary          = 'this is a short description of podDemo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/podDemo'
+  s.homepage         = 'https://github.com/shendy1991/podDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shendeyuan' => 'shendeyuan@souche.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/podDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shendy1991/podDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
   #   'podDemo' => ['podDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh', '~> 2.0.4'
+  s.dependency 'Masonry'
 end
