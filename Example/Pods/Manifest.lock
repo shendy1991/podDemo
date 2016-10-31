@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.0.2)
+  - MJRefresh (2.0.4)
+  - podDemo (0.1.0):
+    - Masonry
+    - MJRefresh (~> 2.0.4)
+
+DEPENDENCIES:
+  - podDemo (from `../`)
+
+EXTERNAL SOURCES:
+  podDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: ea153717001d3c02444bd22b75c111d2937d2104
+  podDemo: 5f2f1cd931e5d84935d591f334b5021d5a4e4eea
+
+PODFILE CHECKSUM: f53ccb4db98f092dd90621fbebb10eb4a0235b37
+
+COCOAPODS: 1.1.0.rc.2
